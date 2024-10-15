@@ -40,7 +40,6 @@ export default function Form() {
     } catch (error) {
       console.error(error)
     }
-    console.log('submit')
   }
 
   return (

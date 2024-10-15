@@ -14,7 +14,6 @@ export const ToastProvider = ({ children }: { children: ReactNode }) => {
 
   const addToast = (message: string, type: 'success' | 'error', duration?: number) => {
     toastId += 1
-    console.log(toastId)
     const newToastMessage: IToastMessage = {
       id: toastId,
       message: message,
