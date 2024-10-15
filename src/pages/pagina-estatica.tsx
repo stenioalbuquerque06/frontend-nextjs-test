@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react'
 import styles from '@/styles/lista.module.css'
 import { ICity } from '@/types/city.d'
 import { InferGetStaticPropsType } from 'next'
-import { getCities } from '@/pages/api/cities/[length]'
+import { getCities } from '@/mocks/api/cities'
 
 const secondsInMs = 60 * 1000
 

@@ -34,7 +34,7 @@ export default function Home() {
 
           <div>
             <label htmlFor="input-name">E-mail</label>
-            <input type="email" id="input-name" placeholder="Insira um e-mail válido" />
+            <input type="email" id="input-email" placeholder="Insira um e-mail válido" />
           </div>
         </form>
       </div>
